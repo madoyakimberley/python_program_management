@@ -79,15 +79,19 @@ pip install -r requirements.txt
 If requirements.txt is missing:
 
 ```bash
-pip install rich
+pip install rich pytest
 ```
 
 ---
 
-## ▶️ Running the Application
+## ▶️ Running the Application and tests
 
 ```bash
 python main.py
+```
+
+```bash
+pytest
 ```
 
 ---
