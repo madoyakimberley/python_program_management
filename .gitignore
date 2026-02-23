@@ -1,0 +1,45 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# ==========================
+# Pytest
+# ==========================
+.pytest_cache/
+.coverage
+
+# ==========================
+# Bytecode / Cache Files
+# ==========================
+models/__pycache__/
+utils/__pycache__/
+tests/__pycache__/
+
+# ==========================
+# Local Data (DO NOT TRACK)
+# ==========================
+data/data.json
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.log
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
